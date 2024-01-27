@@ -1,0 +1,12 @@
+# Deaktivieren von Directory Listings
+Options -Indexes
+
+# Umleitung, um die .php-Erweiterung zu entfernen
+<IfModule mod_rewrite.c>
+    RewriteEngine On
+    # Wenn die angeforderte Datei oder das Verzeichnis existiert
+    RewriteCond %{REQUEST_FILENAME} !-f
+    RewriteCond %{REQUEST_FILENAME} !-d
+    # Dann füge .php hinzu
+    RewriteRule ^([^\.]+)$ $1.php [NC,L]
+</IfModule>

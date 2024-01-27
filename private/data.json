@@ -1,0 +1,29 @@
+{
+    "pageTitle":"filtastisch links",
+    "title":"Meine Socials",
+    "subtitle":"Hi, its me c:",
+    "profile":"public/img/profile.jpg",
+    "favicon":"public/img/favicon.png",
+    "bgColor":"#418fb1",
+    "bgImage":"public/img/background.jpg",
+    "bgBlur": "10px",
+    "bgGray": "50%",
+    "name":"filtastisch",
+    "links":[
+       {
+          "linkName":"Instagram",
+          "image":"public/img/icon/instagram.svg",
+          "link":"https://instagram.com/filtastisch"
+       },
+       {
+          "linkName":"GitHub",
+          "image":"public/img/icon/github.svg",
+          "link":"https://github.com/filtastisch"
+       },
+       {
+          "linkName":"YouTube",
+          "image":"public/img/icon/youtube.svg",
+          "link":"https://www.youtube.com/channel/UCEykepMtWGBaHxGWsnlK5xg"
+       }
+    ]
+ }
